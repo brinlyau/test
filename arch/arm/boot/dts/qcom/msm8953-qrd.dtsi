@@ -94,7 +94,8 @@
 / {
 	qrd_batterydata: qcom,battery-data {
 		qcom,batt-id-range-pct = <15>;
-		#include "batterydata-qrd-sku1-4v4-2800mah.dtsi"
+		#include "batterydata-qrd-jiade-4v4-3075mah.dtsi"
+		#include "batterydata-qrd-feimaotui-4v4-3090mah.dtsi"
 	};
 };
 
