@@ -756,6 +756,11 @@ config INPUT_DRV2667_HAPTICS
 	  To compile this driver as a module, choose M here: the
 	  module will be called drv260x-haptics.
 
+config FINGERPRINT_CS_FINGER
+	tristate "CS_FINGER fingerprint drvier support"
+	help
+	  Say Y here to enable CS_FINGER fingerprint driver support!
+
 config FINGERPRINT_SUNWAVE_FINGER
 	tristate "SUNWAVE_FINGER fingerprint drvier support"
 	help
